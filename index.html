@@ -1,108 +1,316 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Eli Lifland</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-172680854-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <title>Eli Lifland</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172680854-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "UA-172680854-1");
+    </script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        line-height: 1.6;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+      header {
+        background: #f4f4f4;
+        color: #000;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #e8491d 3px solid;
+      }
+      header a {
+        color: #333;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+      header ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        overflow: hidden;
+      }
+      header li {
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+      }
+      header #branding {
+        float: left;
+      }
+      header #branding h1 {
+        margin: 0;
+      }
+      header nav {
+        float: right;
+        margin-top: 10px;
+      }
+      header .highlight,
+      header .current a {
+        color: #e8491d;
+        font-weight: bold;
+      }
+      header a:hover {
+        color: #666;
+        font-weight: bold;
+      }
+      .image-profile {
+        float: right;
+        width: 306px;
+        height: 276px;
+        border-radius: 15px;
+        margin-right: 20px;
+        margin-top: 30px;
+      }
+      .section {
+        margin-bottom: 25px;
+      }
+      .section h3 {
+        color: #e8491d;
+        margin-bottom: 10px;
+      }
+      .section h4 {
+        color: #e8491d;
+        margin-bottom: 10px;
+      }
+      .section a {
+        /* color: #333333; */
+        text-decoration: none;
+      }
+      .section a:hover {
+        color: #e8491d;
+      }
+      /* .section ul {
+        list-style: none;
+        padding: 0;
+      } */
+      .section li {
+        margin-bottom: 5px;
+      }
+      .horizontal-list {
+        list-style-type: none;
+        padding: 0;
+      }
 
-    gtag('config', 'UA-172680854-1');
-  </script>
-</head>
+      .horizontal-list li {
+        display: inline;
+        margin-right: 20px;
+      }
 
-</html>
+      .horizontal-list a {
+        text-decoration: none;
+        /* color: #333; */
+      }
 
-<body>
-  Hi, I'm Eli Lifland.
+      .horizontal-list a:hover {
+        color: #e8491d;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Eli</span> Lifland</h1>
+        </div>
+        <!-- <nav>
+          <ul>
+            <li class="current"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav> -->
+      </div>
+    </header>
 
-  <h3> Me Elsewhere </h3>
+    <div class="container">
+      <img src="fb_pfp.jpeg" alt="Eli Lifland" class="image-profile" />
+      <div class="section">
+        <h3>Me Elsewhere</h3>
+        <ul class="horizontal-list">
+          <li><a href="https://foxy-scout.com">Blog</a></li>
+          <li><a href="https://twitter.com/eli_lifland">Twitter</a></li>
+          <li>
+            <a href="https://forum.effectivealtruism.org/users/elifland"
+              >Effective Altruism Forum</a
+            >
+          </li>
+          <li>
+            <a href="https://www.lesswrong.com/users/elifland">LessWrong</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/eli-lifland/">LinkedIn</a>
+          </li>
+          <li>
+            <a
+              href="https://scholar.google.com/citations?user=Q33DXbEAAAAJ&hl=en"
+              >Google Scholar</a
+            >
+          </li>
+          <li><a href="https://github.com/uvafan">Github</a></li>
+        </ul>
+      </div>
 
-  <ul>
-    <li><a href="https://foxy-scout.com">Blog</a></li>
-    <li><a href="https://twitter.com/eli_lifland">Twitter</a></li>
-    <li><a href="https://forum.effectivealtruism.org/users/elifland">Effective Altruism Forum</a></li>
-    <li><a href="https://www.lesswrong.com/users/elifland">LessWrong</a></li>
-    <li><a href="https://www.linkedin.com/in/eli-lifland/">LinkedIn</a></li>
-    <li><a href="https://scholar.google.com/citations?user=Q33DXbEAAAAJ&hl=en">Google Scholar</a></li>
-    <li><a href="https://github.com/uvafan">Github</a></li>
-  </ul>
+      <div class="section">
+        <h3>Career</h3>
 
-  <h3> Effective Altruism </h3>
+        I'm working on various projects related to
+        <a href="https://en.wikipedia.org/wiki/AI_alignment">AI alignment</a>. I
+        advise and sometimes do part-time work for
+        <a href="https://sage-future.org/">Sage</a>, a forecasting organization
+        I cofounded. I previously worked at
+        <a href="https://ought.org/">Ought</a> on the AI research assistant
+        <a href="https://elicit.org/">Elicit</a>.
+      </div>
 
-  I'm part of the <a href="https://www.effectivealtruism.com">effective altruism</a> movement, which aims to use reason
-  and evidence to improve the world as much as possible. I've taken the <a
-    href="https://www.givingwhatwecan.org/pledge/">Giving What We Can Pledge</a> to donate at least 10% of my lifetime
-  income to charities I think are the most effective. I write more about effective altruism <a
-    href="https://foxy-scout.com/why-effective-altruism/">here</a>.
+      <div class="section">
+        <h3>Writing</h3>
 
-  <h3> Career </h3>
+        Some writing I've (co-)authored that I am happiest about:
+        <ul>
+          <li>
+            <a
+              href="https://forum.effectivealtruism.org/posts/9Y6Y6qoAigRC7A8eX/my-take-on-what-we-owe-the-future"
+              >My take on What We Owe the Future</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.alignmentforum.org/posts/NLqAQzAhE9u87TvNz/eli-s-review-of-is-power-seeking-ai-an-existential-risk-1"
+              >Eli's review of "Is power-seeking AI an existential risk?"</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.lesswrong.com/posts/LERwsN3SYhkCfew6j/discussing-how-to-align-transformative-ai-if-it-s-developed"
+              >Discussing how to align Transformative AI if it’s developed very
+              soon</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://forum.effectivealtruism.org/posts/5hprBzprm7JjJTHNX/reasons-i-ve-been-hesitant-about-high-levels-of-near-ish-ai-1"
+              >Reasons I’ve been hesitant about high levels of near-ish AI
+              risk</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is"
+              >(My understanding of) What Everyone in Technical Alignment is
+              Doing and Why</a
+            >
+          </li>
+        </ul>
+      </div>
 
-  I'm working on various projects related to <a href="https://en.wikipedia.org/wiki/AI_alignment">AI alignment</a>.
-  I advise and sometimes do part-time work for <a href="https://sage-future.org/">Sage</a>, an forecasting organization I cofounded.
-  I previously worked at <a href="https://ought.org/">Ought</a> on the AI research assistant <a href="https://elicit.org/">Elicit</a>.
+      <div class="section">
+        <h3>Forecasting</h3>
 
-<h3> Writing</h3>
+        I'm interested in judgmental forecasting as a route to improved decision
+        making. I recommend
+        <a href="https://www.goodreads.com/book/show/23995360-superforecasting"
+          >Superforecasting</a
+        >
+        for an introduction, but I think it overclaims in some ways (e.g.
+        regarding
+        <a
+          href="https://forum.effectivealtruism.org/posts/qZqvBLvR5hX9sEkjR/comparing-top-forecasters-and-domain-experts"
+          >generalists vs. expertise</a
+        >). I co-lead the
+        <a href="https://samotsvety.org/">Samotsvety Forecasting</a> team. My
+        forecasting track record is described
+        <a href="https://www.foxy-scout.com/retro/">here</a>.
+      </div>
 
-My blog is at <a href="https://www.foxy-scout.com/">foxy-scout.com</a>. I often crosspost to the <a href="https://forum.effectivealtruism.org/users/elifland">Effective Altruism Forum</a> or <a href="https://www.lesswrong.com/users/elifland">LessWrong</a>. 
-Some writing I've (co-)authored that I am happiest about:
-<ul>
-  <li><a href="https://forum.effectivealtruism.org/posts/9Y6Y6qoAigRC7A8eX/my-take-on-what-we-owe-the-future">My take on What We Owe the Future</a></li>
-  <li><a href="https://www.alignmentforum.org/posts/NLqAQzAhE9u87TvNz/eli-s-review-of-is-power-seeking-ai-an-existential-risk-1">Eli's review of "Is power-seeking AI an existential risk?"</a></li>
-  <li><a href="https://www.lesswrong.com/posts/LERwsN3SYhkCfew6j/discussing-how-to-align-transformative-ai-if-it-s-developed">Discussing how to align Transformative AI if it’s developed very soon</a></li>
-  <li><a href="https://forum.effectivealtruism.org/posts/5hprBzprm7JjJTHNX/reasons-i-ve-been-hesitant-about-high-levels-of-near-ish-ai-1">Reasons I’ve been hesitant about high levels of near-ish AI risk</a></li>
-  <li><a href="https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is">(My understanding of) What Everyone in Technical Alignment is Doing and Why</a></li>
-</ul>
+      <div class="section">
+        <h3>AI Research</h3>
 
-  <h3> Forecasting </h3>
+        During my last year of college, I co-created
+        <a href="https://github.com/QData/TextAttack">TextAttack</a>, a Python
+        framework for adversarial attacks in NLP. See the
+        <a href="https://arxiv.org/abs/2005.05909">paper</a> or
+        <a
+          href="https://towardsdatascience.com/what-are-adversarial-examples-in-nlp-f928c574478e"
+          >blog post</a
+        >. We also published a
+        <a href="https://arxiv.org/abs/2004.14174">paper</a> arguing for
+        stricter evaluation of adversarial examples in NLP. While at Ought, I
+        co-created the <a href="https://raft.elicit.org/">RAFT Benchmark</a>
+      </div>
+      <div class="section">
+        <h3>Effective Altruism</h3>
+        I'm part of the
+        <a href="https://www.effectivealtruism.com">effective altruism</a>
+        movement, which aims to use reason and evidence to improve the world as
+        much as possible. I've taken the
+        <a href="https://www.givingwhatwecan.org/pledge/"
+          >Giving What We Can Pledge</a
+        >
+        to donate at least 10% of my lifetime income to charities I think are
+        the most effective, and ideas I learned about due to effective altruism
+        have had a large impact on my career decisions. I write more about
+        effective altruism
+        <a href="https://foxy-scout.com/why-effective-altruism/">here</a>.
+      </div>
 
-  I'm interested in judgmental forecasting as a route to improved decision making. I recommend <a
-    href="https://www.goodreads.com/book/show/23995360-superforecasting">Superforecasting</a> for an introduction, but I think it overclaims in some ways (e.g. regarding <a href="https://forum.effectivealtruism.org/posts/qZqvBLvR5hX9sEkjR/comparing-top-forecasters-and-domain-experts">generalists vs. expertise</a>). 
-    I co-lead the <a href="https://samotsvety.org/">Samotsvety Forecasting</a> team. My forecasting track record 
-    is described <a href="https://www.foxy-scout.com/retro/">here</a>.
+      <div class="section">
+        <h3>Education</h3>
 
-  <h3> AI Research </h3>
+        I have degrees in computer science and economics from the
+        <a href="https://www.virginia.edu/">University of Virginia</a>,
+        <a href="https://www.youtube.com/watch?v=HxA3Xd4DXCY"
+          >2019 NCAA basketball national champions</a
+        >!
+      </div>
 
-  During my last year of college, I co-created <a href="https://github.com/QData/TextAttack">TextAttack</a>, a Python
-  framework for adversarial attacks in NLP. See the <a href="https://arxiv.org/abs/2005.05909">paper</a> or <a
-    href="https://towardsdatascience.com/what-are-adversarial-examples-in-nlp-f928c574478e">blog post</a>. We also
-  published a <a href="https://arxiv.org/abs/2004.14174">paper</a> arguing for stricter evaluation of adversarial
-  examples in NLP. While at Ought, I co-created the <a href="https://raft.elicit.org/">RAFT Benchmark</a>
+      <div class="section">
+        <h3>Miscellany</h3>
 
-  <h3> Board games </h3>
+        <h4>Battlecode</h4>
 
-  I like playing strategy games. The latest one I'm into is <a
-    href="https://boardgamegeek.com/boardgame/167791/terraforming-mars">Terraforming Mars</a>. It's a board game with
-  some online adaptations. I also sometimes play chess.
+        I competed in <a href="https://battlecode.org/">Battlecode</a> for
+        several years, a competition for high-school and college students to
+        program the best bot to win a strategy game. My team advanced to the top
+        4 3 out of 6 years. See
+        <a href="https://github.com/uvafan/bc20">the README here</a> for more.
 
-  <h3> Education </h3>
+        <h4>Clash Royale</h4>
 
-  I have degrees in computer science and economics from the <a href="https://www.virginia.edu/">University of
-    Virginia</a>, <a href="https://www.youtube.com/watch?v=HxA3Xd4DXCY">2019 NCAA basketball national champions</a>!
+        During the end of high school and beginning of college, I was addicted
+        to the mobile game, Clash Royale, did well in a few competitions and
+        built up a bit of a following before quitting. My YouTube channel was
+        <a href="https://www.youtube.com/channel/UCx6U0bPb5XpShjnAmI_LXHw"
+          >here</a
+        >.
 
-  <h3> Previous dimensions </h3>
+        <h4>Speedcubing</h4>
 
-  <h4> Battlecode </h4>
-
-  I competed in <a href="https://battlecode.org/">Battlecode</a> for several years, a competition for high-school and
-  college students to program the best bot to win a strategy game. My team advanced to the top 4 3 out of 6 years. See
-  <a href="https://github.com/uvafan/bc20">the README here</a> for more.
-
-  <h4> Clash Royale </h4>
-
-  During the end of high school and beginning of college, I was addicted to the mobile game, Clash Royale, did well in a
-  few competitions and built up a bit of a following before quitting. My YouTube channel was <a
-    href="https://www.youtube.com/channel/UCx6U0bPb5XpShjnAmI_LXHw">here</a>.
-
-  <h4> Speedcubing </h4>
-
-  During middle school and early in high school, I spent a lot of time solving Rubik's cubes as fast as I could (and
-  doing them one-handed and blindfolded). My WCA profile is <a
-    href="https://www.worldcubeassociation.org/persons/2012LIFL01">here</a>; I was decent but not world class.
-
-</body>
-
+        During middle school and early in high school, I spent a lot of time
+        solving Rubik's cubes as fast as I could (and doing them one-handed and
+        blindfolded). My WCA profile is
+        <a href="https://www.worldcubeassociation.org/persons/2012LIFL01"
+          >here</a
+        >; I was decent but not world class.
+      </div>
+    </div>
+  </body>
 </html>
